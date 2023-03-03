@@ -1,0 +1,139 @@
+PODS:
+  - Alamofire (5.9.1)
+  - AlamofireNetworkActivityLogger (3.4.1-beta.1):
+    - Alamofire (~> 5)
+  - BottomSheet (2.0.5-beta.3)
+  - CodableWrappers (2.0.7)
+  - CRRefresh (1.1.3)
+  - Kingfisher (7.12.0)
+  - LanguageManager-iOS (1.2.8-beta.1)
+  - LifetimeTracker (1.8.3)
+  - lottie-ios (4.4.3)
+  - Realm (10.49.2):
+    - Realm/Headers (= 10.49.2)
+  - Realm/Headers (10.49.2)
+  - RealmSwift (10.49.2):
+    - Realm (= 10.49.2)
+  - Reveal-SDK (49)
+  - RxAlamofire (6.1.3-beta.3):
+    - RxAlamofire/Core (= 6.1.3-beta.3)
+  - RxAlamofire/Core (6.1.3-beta.3):
+    - Alamofire (~> 5)
+    - RxSwift (= 6.7.0)
+  - RxBlocking (6.7.0):
+    - RxSwift (= 6.7.0)
+  - RxCocoa (6.7.0):
+    - RxRelay (= 6.7.0)
+    - RxSwift (= 6.7.0)
+  - RxRelay (6.7.0):
+    - RxSwift (= 6.7.0)
+  - RxSwift (6.7.0)
+  - RxSwiftExt (6.2.2-beta.1):
+    - RxSwiftExt/Core (= 6.2.2-beta.1)
+    - RxSwiftExt/RxCocoa (= 6.2.2-beta.1)
+  - RxSwiftExt/Core (6.2.2-beta.1):
+    - RxSwift (~> 6.0)
+  - RxSwiftExt/RxCocoa (6.2.2-beta.1):
+    - RxCocoa (~> 6.0)
+    - RxSwiftExt/Core
+  - SkeletonView (1.30.99-beta.1)
+  - SnapKit (5.7.1)
+  - SwiftDate (7.0.0)
+  - SwiftEventBus (5.1.1-beta.1)
+  - SwiftLint (0.54.0)
+  - SwiftSoup (2.7.2)
+  - XLPagerTabStrip (9.1.1-beta.1)
+  - ZMarkupParser (1.8.2-beta.1):
+    - ZNSTextAttachment (~> 1.1.10-beta.1)
+  - ZNSTextAttachment (1.1.10-beta.1)
+
+DEPENDENCIES:
+  - Alamofire (= 5.9.1)
+  - AlamofireNetworkActivityLogger (= 3.4.1-beta.1)
+  - BottomSheet (= 2.0.5-beta.3)
+  - CodableWrappers (= 2.0.7)
+  - CRRefresh (= 1.1.3)
+  - Kingfisher (= 7.12.0)
+  - LanguageManager-iOS (= 1.2.8-beta.1)
+  - LifetimeTracker (= 1.8.3)
+  - lottie-ios (= 4.4.3)
+  - Realm (= 10.49.2)
+  - RealmSwift (= 10.49.2)
+  - Reveal-SDK
+  - RxAlamofire (= 6.1.3-beta.3)
+  - RxBlocking (= 6.7.0)
+  - RxCocoa (= 6.7.0)
+  - RxSwift (= 6.7.0)
+  - RxSwiftExt (= 6.2.2-beta.1)
+  - SkeletonView (= 1.30.99-beta.1)
+  - SnapKit (= 5.7.1)
+  - SwiftDate (= 7.0.0)
+  - SwiftEventBus (= 5.1.1-beta.1)
+  - SwiftLint (= 0.54.0)
+  - SwiftSoup (= 2.7.2)
+  - XLPagerTabStrip (= 9.1.1-beta.1)
+  - ZMarkupParser (= 1.8.2-beta.1)
+
+SPEC REPOS:
+  https://bitbucket.org/beautyfu/ios-pod-specs.git:
+    - AlamofireNetworkActivityLogger
+    - BottomSheet
+    - LanguageManager-iOS
+    - RxAlamofire
+    - RxSwiftExt
+    - SkeletonView
+    - SwiftEventBus
+    - XLPagerTabStrip
+    - ZMarkupParser
+    - ZNSTextAttachment
+  trunk:
+    - Alamofire
+    - CodableWrappers
+    - CRRefresh
+    - Kingfisher
+    - LifetimeTracker
+    - lottie-ios
+    - Realm
+    - RealmSwift
+    - Reveal-SDK
+    - RxBlocking
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SnapKit
+    - SwiftDate
+    - SwiftLint
+    - SwiftSoup
+
+SPEC CHECKSUMS:
+  Alamofire: f36a35757af4587d8e4f4bfa223ad10be2422b8c
+  AlamofireNetworkActivityLogger: af63c1a35e852444f3bec46499b5fd22d6765505
+  BottomSheet: 9e6a0e92a8a8660130a7f7eccb12de8fa019873e
+  CodableWrappers: c14b64d713e28e5355368f1726afd898f7772c6d
+  CRRefresh: 1415d4ae06837fa7bb064c44f2e102f3ef517044
+  Kingfisher: 53a10ea35051a436b5fb626ca2dd8f3144d755e9
+  LanguageManager-iOS: ff3a7e6149ee785cecb69942f67b0a211df52ab5
+  LifetimeTracker: e67647bf9130e4173e488689896f057a63de16ec
+  lottie-ios: fcb5e73e17ba4c983140b7d21095c834b3087418
+  Realm: c1a96376972e5f6c26276a0cd6dee15eeefaf53c
+  RealmSwift: db6ea9e15607653352baa42321bd9586850b7f04
+  Reveal-SDK: edbcdb7602c86e268e7f9f32c86d3d7822b4fadc
+  RxAlamofire: 6ff55cd9dd2be66aeccd4fa31a161a6ecf4b8b79
+  RxBlocking: 37d221e79cb8ea1fa0ddf6ab029fe53346785688
+  RxCocoa: fb0aefb9e7229c8ab057acde714136d19117f102
+  RxRelay: 5d39f4d8da150ad47a71b9ce11915e3eae2a8f4d
+  RxSwift: 6ee35684dc3f7a63938758f4b7708199517dfa97
+  RxSwiftExt: 60047cad68a115ecbdba15866b72c17c58cf6c02
+  SkeletonView: feb07e5f7e728bc42257789b0ce661412a20a03e
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+  SwiftDate: bbc26e26fc8c0c33fbee8c140c5e8a68293a148a
+  SwiftEventBus: 9498acfd451cc5ccb04d76b149749b0d22dd4f11
+  SwiftLint: c1de071d9d08c8aba837545f6254315bc900e211
+  SwiftSoup: 4164c6bd8af69acd119c23fb36906975a60d71bb
+  XLPagerTabStrip: 6d91c8e70129fbf479a579591013b766a9d60ee4
+  ZMarkupParser: 2a758868bbd250009b8e31a18433b9618f094be1
+  ZNSTextAttachment: 17b19ea15ac732c4b72b6b010d3cbf31eb9db987
+
+PODFILE CHECKSUM: 1b126da805376602c828a1fc165027ef3d8f0b36
+
+COCOAPODS: 1.15.2
