@@ -15,6 +15,8 @@
 		59040E6129B1A71200B009CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59040E5F29B1A71200B009CF /* LaunchScreen.storyboard */; };
 		59093D1129D6CA2400781A7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59093D1029D6CA2400781A7C /* Assets.xcassets */; };
 		593778D12CE5CF0000508875 /* PostEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593778D02CE5CEF800508875 /* PostEntity.swift */; };
+		593778D32CE5D23E00508875 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593778D22CE5D23700508875 /* ListViewModel.swift */; };
+		593778D52CE5D24400508875 /* ListViewModelImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593778D42CE5D24100508875 /* ListViewModelImpl.swift */; };
 		593778E32CE5E1D300508875 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593778E22CE5E1D300508875 /* DetailViewController.swift */; };
 		593778E52CE5E1DB00508875 /* DetailViewController+Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593778E42CE5E1DB00508875 /* DetailViewController+Design.swift */; };
 		59609E002B785F1D007CB164 /* RemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59609DFF2B785F1D007CB164 /* RemoteDataSource.swift */; };
@@ -71,6 +73,8 @@
 		59040E6229B1A71200B009CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59093D1029D6CA2400781A7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		593778D02CE5CEF800508875 /* PostEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEntity.swift; sourceTree = "<group>"; };
+		593778D22CE5D23700508875 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		593778D42CE5D24100508875 /* ListViewModelImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModelImpl.swift; sourceTree = "<group>"; };
 		593778E22CE5E1D300508875 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		593778E42CE5E1DB00508875 /* DetailViewController+Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailViewController+Design.swift"; sourceTree = "<group>"; };
 		59609DFF2B785F1D007CB164 /* RemoteDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteDataSource.swift; sourceTree = "<group>"; };
@@ -258,6 +262,8 @@
 		65B8C4B25A19FD86B75CF259 /* Processed */ = {
 			isa = PBXGroup;
 			children = (
+				593778D42CE5D24100508875 /* ListViewModelImpl.swift */,
+				593778D22CE5D23700508875 /* ListViewModel.swift */,
 				593778E42CE5E1DB00508875 /* DetailViewController+Design.swift */,
 				593778E22CE5E1D300508875 /* DetailViewController.swift */,
 				593778D02CE5CEF800508875 /* PostEntity.swift */,
@@ -558,6 +564,7 @@
 				65B8CC4C6998E94F0F2C55D3 /* BoolPropertyWrapper.swift in Sources */,
 				65B8CEE9071542918BF87C27 /* DateTimePropertyWrapper.swift in Sources */,
 				596BDD192C5EB5F00035FD3B /* UIButtonObliqueBottomLeft.swift in Sources */,
+				593778D52CE5D24400508875 /* ListViewModelImpl.swift in Sources */,
 				65B8C5F283514F4B5E8EBB99 /* FloatPropertyWrapper.swift in Sources */,
 				65B8CEA5C6A638A16821DA86 /* GenericEnumStaticCoder.swift in Sources */,
 				65B8CB4563A9849862557307 /* IntPropertyWrapper.swift in Sources */,
@@ -567,6 +574,8 @@
 				65B8C080DF3B1E11919B4FE8 /* GeniebookJsonAPI.swift in Sources */,
 				59A17BED2C576FD400BE4649 /* UIVIew+ActivityIndicatorRocket.swift in Sources */,
 				593778E32CE5E1D300508875 /* DetailViewController.swift in Sources */,
+				593778D32CE5D23E00508875 /* ListViewModel.swift in Sources */,
+				59F640752C47C95500F37C5F /* V2ShowMoreFilterItemView.swift in Sources */,
 				65B8C31C38083627D3826FB8 /* Error.swift in Sources */,
 				59609E0F2B7865B0007CB164 /* AtomicPrmitive.swift in Sources */,
 				59609E002B785F1D007CB164 /* RemoteDataSource.swift in Sources */,
