@@ -19,6 +19,8 @@
 		593778D52CE5D24400508875 /* ListViewModelImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593778D42CE5D24100508875 /* ListViewModelImpl.swift */; };
 		593778D72CE5D4C200508875 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593778D62CE5D4BF00508875 /* ListViewController.swift */; };
 		593778D92CE5D4CF00508875 /* ListViewController+Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593778D82CE5D4C600508875 /* ListViewController+Design.swift */; };
+		593778D72CE5D4C200508875 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593778D62CE5D4BF00508875 /* ListViewController.swift */; };
+		593778D92CE5D4CF00508875 /* ListViewController+Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593778D82CE5D4C600508875 /* ListViewController+Design.swift */; };
 		593778DF2CE5DB3200508875 /* ListCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593778DE2CE5DB3200508875 /* ListCollectionCell.swift */; };
 		593778E12CE5DB4000508875 /* ListCollectionCell+Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593778E02CE5DB4000508875 /* ListCollectionCell+Design.swift */; };
 		593778E32CE5E1D300508875 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593778E22CE5E1D300508875 /* DetailViewController.swift */; };
@@ -79,6 +81,8 @@
 		593778D02CE5CEF800508875 /* PostEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEntity.swift; sourceTree = "<group>"; };
 		593778D22CE5D23700508875 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		593778D42CE5D24100508875 /* ListViewModelImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModelImpl.swift; sourceTree = "<group>"; };
+		593778D62CE5D4BF00508875 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		593778D82CE5D4C600508875 /* ListViewController+Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListViewController+Design.swift"; sourceTree = "<group>"; };
 		593778D62CE5D4BF00508875 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		593778D82CE5D4C600508875 /* ListViewController+Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListViewController+Design.swift"; sourceTree = "<group>"; };
 		593778DE2CE5DB3200508875 /* ListCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCollectionCell.swift; sourceTree = "<group>"; };
@@ -270,6 +274,8 @@
 		65B8C4B25A19FD86B75CF259 /* Processed */ = {
 			isa = PBXGroup;
 			children = (
+				593778D82CE5D4C600508875 /* ListViewController+Design.swift */,
+				593778D62CE5D4BF00508875 /* ListViewController.swift */,
 				593778D42CE5D24100508875 /* ListViewModelImpl.swift */,
 				593778D22CE5D23700508875 /* ListViewModel.swift */,
 				593778E42CE5E1DB00508875 /* DetailViewController+Design.swift */,
@@ -565,6 +571,7 @@
 				65B8C80BAE02AF42B85941FF /* Constants.swift in Sources */,
 				65B8CCC1C495C426B1E911EC /* UIEdgeInsetsExtensions.swift in Sources */,
 				65B8C88A48586A7D33D37DC5 /* Collection+Common.swift in Sources */,
+				593778D92CE5D4CF00508875 /* ListViewController+Design.swift in Sources */,
 				65B8C6B93872FB3714FCA84A /* ArrayExtensions.swift in Sources */,
 				65B8CA0A3E747EA80DCE9339 /* InternationalizationExtension.swift in Sources */,
 				65B8CC9FE8E2CE8054E4918B /* Unknown.swift in Sources */,
@@ -582,6 +589,7 @@
 				65B8CB4563A9849862557307 /* IntPropertyWrapper.swift in Sources */,
 				593778D12CE5CF0000508875 /* PostEntity.swift in Sources */,
 				65B8C6B25B2E6F25F1F1319D /* StringPropertyWrapper.swift in Sources */,
+				593778D72CE5D4C200508875 /* ListViewController.swift in Sources */,
 				65B8CFA7EC22B739CC51B58C /* Error+ViewModel.swift in Sources */,
 				65B8C080DF3B1E11919B4FE8 /* GeniebookJsonAPI.swift in Sources */,
 				59A17BED2C576FD400BE4649 /* UIVIew+ActivityIndicatorRocket.swift in Sources */,
