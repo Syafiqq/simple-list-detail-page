@@ -54,6 +54,23 @@ class ViewController: UIViewController {
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+        let infrastructureRemoteApiRaw = DataSource.Remote.GeniebookJsonAPIJsonRequest(
+            apiKey: { "" },
+            apiUid: { "" },
+            baseUrl: { "https://jsonplaceholder.org/" },
+            semaphoreProvider: { DispatchSemaphore(value: 10000)},
+            apiQueue: { DispatchQueue.main},
+            session: AF,
+            requestTimeoutProvider: { 120 }
+        )
+        let infrastructureRemoteApi = DataSource.Remote.GeniebookJsonAPI(apiService: infrastructureRemoteApiRaw)
+        let repository = GenieClassRepositoryImpl(remoteDataSource: infrastructureRemoteApi);
+
+        let vm = Presentation.ListViewModelImpl(genieClassRepository: repository)
+        let vc = Presentation.UiKit.ListViewController(nibName: nil, bundle: nil, viewModel: vm)
+        let nav = UINavigationController(rootViewController: vc)
+        nav.modalPresentationStyle = .fullScreen
+        present(nav, animated: true, completion: nil)
     }
 
     override func viewWillDisappear(_ animated: Bool) {
