@@ -15,6 +15,8 @@
 		59040E6129B1A71200B009CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59040E5F29B1A71200B009CF /* LaunchScreen.storyboard */; };
 		59093D1129D6CA2400781A7C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59093D1029D6CA2400781A7C /* Assets.xcassets */; };
 		593778D12CE5CF0000508875 /* PostEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593778D02CE5CEF800508875 /* PostEntity.swift */; };
+		593778E32CE5E1D300508875 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593778E22CE5E1D300508875 /* DetailViewController.swift */; };
+		593778E52CE5E1DB00508875 /* DetailViewController+Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593778E42CE5E1DB00508875 /* DetailViewController+Design.swift */; };
 		59609E002B785F1D007CB164 /* RemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59609DFF2B785F1D007CB164 /* RemoteDataSource.swift */; };
 		59609E0F2B7865B0007CB164 /* AtomicPrmitive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59609E0E2B7865B0007CB164 /* AtomicPrmitive.swift */; };
 		596BDD192C5EB5F00035FD3B /* UIButtonObliqueBottomLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596BDD172C5EB5F00035FD3B /* UIButtonObliqueBottomLeft.swift */; };
@@ -69,6 +71,8 @@
 		59040E6229B1A71200B009CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59093D1029D6CA2400781A7C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		593778D02CE5CEF800508875 /* PostEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEntity.swift; sourceTree = "<group>"; };
+		593778E22CE5E1D300508875 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		593778E42CE5E1DB00508875 /* DetailViewController+Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailViewController+Design.swift"; sourceTree = "<group>"; };
 		59609DFF2B785F1D007CB164 /* RemoteDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteDataSource.swift; sourceTree = "<group>"; };
 		59609E0E2B7865B0007CB164 /* AtomicPrmitive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicPrmitive.swift; sourceTree = "<group>"; };
 		596BDD172C5EB5F00035FD3B /* UIButtonObliqueBottomLeft.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonObliqueBottomLeft.swift; sourceTree = "<group>"; };
@@ -254,6 +258,8 @@
 		65B8C4B25A19FD86B75CF259 /* Processed */ = {
 			isa = PBXGroup;
 			children = (
+				593778E42CE5E1DB00508875 /* DetailViewController+Design.swift */,
+				593778E22CE5E1D300508875 /* DetailViewController.swift */,
 				593778D02CE5CEF800508875 /* PostEntity.swift */,
 				59609DFF2B785F1D007CB164 /* RemoteDataSource.swift */,
 				59AB25882C45C328002F2C0A /* Repository.swift */,
@@ -531,6 +537,7 @@
 				59040E5929B1A71200B009CF /* ViewController.swift in Sources */,
 				59040E5529B1A71200B009CF /* AppDelegate.swift in Sources */,
 				65B8C26ED8DCFA5AA1CEF9B9 /* FontHelper.swift in Sources */,
+				593778E52CE5E1DB00508875 /* DetailViewController+Design.swift in Sources */,
 				596BDD1A2C5EB5F00035FD3B /* UIButtonObliqueBottom.swift in Sources */,
 				65B8C1D2104D28267A8EFEF0 /* UIColorExtension.swift in Sources */,
 				65B8CDB5744672C6BC11451F /* Colors.swift in Sources */,
@@ -559,6 +566,7 @@
 				65B8CFA7EC22B739CC51B58C /* Error+ViewModel.swift in Sources */,
 				65B8C080DF3B1E11919B4FE8 /* GeniebookJsonAPI.swift in Sources */,
 				59A17BED2C576FD400BE4649 /* UIVIew+ActivityIndicatorRocket.swift in Sources */,
+				593778E32CE5E1D300508875 /* DetailViewController.swift in Sources */,
 				65B8C31C38083627D3826FB8 /* Error.swift in Sources */,
 				59609E0F2B7865B0007CB164 /* AtomicPrmitive.swift in Sources */,
 				59609E002B785F1D007CB164 /* RemoteDataSource.swift in Sources */,
