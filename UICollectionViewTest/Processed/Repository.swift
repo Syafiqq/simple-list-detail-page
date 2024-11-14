@@ -14,6 +14,7 @@ protocol GenieClassRepository: AnyObject {
     // MARK: - Local
 
     // MARK: - Remote
+    func getPosts() -> Single<[Domain.PostEntity]>
 }
 
 final class GenieClassRepositoryImpl: GenieClassRepository {
@@ -39,4 +40,7 @@ extension GenieClassRepositoryImpl {
 // MARK: - Remote
 
 extension GenieClassRepositoryImpl {
+    func getPosts() -> Single<[Domain.PostEntity]> {
+        remoteDataSource.getPosts()
+    }
 }
