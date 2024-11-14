@@ -17,6 +17,10 @@
 		593778D12CE5CF0000508875 /* PostEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593778D02CE5CEF800508875 /* PostEntity.swift */; };
 		593778D32CE5D23E00508875 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593778D22CE5D23700508875 /* ListViewModel.swift */; };
 		593778D52CE5D24400508875 /* ListViewModelImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593778D42CE5D24100508875 /* ListViewModelImpl.swift */; };
+		593778D72CE5D4C200508875 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593778D62CE5D4BF00508875 /* ListViewController.swift */; };
+		593778D92CE5D4CF00508875 /* ListViewController+Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593778D82CE5D4C600508875 /* ListViewController+Design.swift */; };
+		593778DF2CE5DB3200508875 /* ListCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593778DE2CE5DB3200508875 /* ListCollectionCell.swift */; };
+		593778E12CE5DB4000508875 /* ListCollectionCell+Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593778E02CE5DB4000508875 /* ListCollectionCell+Design.swift */; };
 		593778E32CE5E1D300508875 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593778E22CE5E1D300508875 /* DetailViewController.swift */; };
 		593778E52CE5E1DB00508875 /* DetailViewController+Design.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593778E42CE5E1DB00508875 /* DetailViewController+Design.swift */; };
 		59609E002B785F1D007CB164 /* RemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59609DFF2B785F1D007CB164 /* RemoteDataSource.swift */; };
@@ -75,6 +79,10 @@
 		593778D02CE5CEF800508875 /* PostEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostEntity.swift; sourceTree = "<group>"; };
 		593778D22CE5D23700508875 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		593778D42CE5D24100508875 /* ListViewModelImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModelImpl.swift; sourceTree = "<group>"; };
+		593778D62CE5D4BF00508875 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		593778D82CE5D4C600508875 /* ListViewController+Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListViewController+Design.swift"; sourceTree = "<group>"; };
+		593778DE2CE5DB3200508875 /* ListCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCollectionCell.swift; sourceTree = "<group>"; };
+		593778E02CE5DB4000508875 /* ListCollectionCell+Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ListCollectionCell+Design.swift"; sourceTree = "<group>"; };
 		593778E22CE5E1D300508875 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		593778E42CE5E1DB00508875 /* DetailViewController+Design.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailViewController+Design.swift"; sourceTree = "<group>"; };
 		59609DFF2B785F1D007CB164 /* RemoteDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteDataSource.swift; sourceTree = "<group>"; };
@@ -269,6 +277,8 @@
 				593778D02CE5CEF800508875 /* PostEntity.swift */,
 				59609DFF2B785F1D007CB164 /* RemoteDataSource.swift */,
 				59AB25882C45C328002F2C0A /* Repository.swift */,
+				593778DE2CE5DB3200508875 /* ListCollectionCell.swift */,
+				593778E02CE5DB4000508875 /* ListCollectionCell+Design.swift */,
 			);
 			path = Processed;
 			sourceTree = "<group>";
@@ -558,12 +568,14 @@
 				65B8C6B93872FB3714FCA84A /* ArrayExtensions.swift in Sources */,
 				65B8CA0A3E747EA80DCE9339 /* InternationalizationExtension.swift in Sources */,
 				65B8CC9FE8E2CE8054E4918B /* Unknown.swift in Sources */,
+				593778DF2CE5DB3200508875 /* ListCollectionCell.swift in Sources */,
 				65B8C27BD61E1A0980E0EBA3 /* UIStateModel.swift in Sources */,
 				59A17BEC2C576FD400BE4649 /* V1ViewGeneratorHelper.swift in Sources */,
 				65B8C551748E2F4273DAEC46 /* OneTimeDataFetcherUiState.swift in Sources */,
 				65B8CC4C6998E94F0F2C55D3 /* BoolPropertyWrapper.swift in Sources */,
 				65B8CEE9071542918BF87C27 /* DateTimePropertyWrapper.swift in Sources */,
 				596BDD192C5EB5F00035FD3B /* UIButtonObliqueBottomLeft.swift in Sources */,
+				593778E12CE5DB4000508875 /* ListCollectionCell+Design.swift in Sources */,
 				593778D52CE5D24400508875 /* ListViewModelImpl.swift in Sources */,
 				65B8C5F283514F4B5E8EBB99 /* FloatPropertyWrapper.swift in Sources */,
 				65B8CEA5C6A638A16821DA86 /* GenericEnumStaticCoder.swift in Sources */,
